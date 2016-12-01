@@ -5,13 +5,19 @@
   <title>Beau's Bonbons</title>
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 </head>
 <body>
 
   <header>
     <h1>Beau's Bonbons</h1>
     <nav>
-      <ul>
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label" for="nav-check">
+        <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
+        <img class="nav-close" src="images/nav-icon-close.svg" alt="Close Navigation">
+      </label>
+      <ul class="nav">
         <li><a href="#">Shop</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
@@ -23,7 +29,7 @@
 
     <div class="banner">
       <img src="images/placeholder-3by2.svg" alt="">
-      <p>Welcome to Beau's!</p>
+      <p>Celebrate the Holidays with Beau's Bonbons!</p>
     </div>
 
     <div class="categories">
@@ -79,9 +85,39 @@
       <h2>Location</h2>
       <div class="location-img">
         <img src="images/placeholder-3by2.svg" alt="">
-        <p>Lorem Ipsum</p>
+      </div>
+
+      <div>
+        <h3>Store Hours</h3>
+          <ol>
+            <li>Saturday <time>9:30AM–7PM</time></li>
+            <li>Sunday <time>9:30AM–7PM</time></li>
+            <li>Monday <time>9:30AM–7PM</time></li>
+            <li>Tuesday <time>9:30AM–7PM</time></li>
+            <li>Wednesday <time>9:30AM–7PM</time></li>
+            <li>Thursday <time>9:30AM–7PM</time></li>
+            <li>Friday <time>9:30AM–7PM</time></li>
+          </ol>
+      </div>
+
+      <div>
+        <h3>Address</h3>
+        <div class="vcard">
+          <p class="fn"><a class="url" href="#">Beau's Bonbons</a><p>
+          <p class="adr">
+          <span class="street-address">5684 Candy Lane</span><br>
+          <span class="region">Candyville</span><br>
+          <span class="postal-code">C4C 5C7</span><br>
+          <span class="country-name">Candy Land</span>
+          </p>
+          <p class="tel">+1 (555)555-5555</p>
+        </div>
       </div>
     </div>
+
+  <div>
+    <footer>©2016 Beau's Bonbons</footer>
+  </div>
 
   </main>
 
