@@ -38,23 +38,23 @@ h1 {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  background-color: #ccc;
   display: none;
   position: absolute;
-  right: 0;
   top: 100%;
   width: 15em;
 }
 
 .nav a {
-  color: #000;
-  background-color: #666;
   display: block;
-  padding: .5em;
+  padding: 0.5em;
   text-decoration: none;
+  background-color: #666;
+  color: #000;
 }
 
 .nav a:hover {
-  background-color: #000;
+  background-color: #333;
   color: #fff;
 }
 
@@ -72,13 +72,12 @@ h1 {
   font-size: 1.25rem;
   width: 40px;
   display: inline-block;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
 }
 
-.nav-check:checked ~ .nav-label {
-  background-color: #fff;
-}
-
-.nav-label,
+.nav-open,
 .nav-close {
   display: block;
   width: 100%;
@@ -92,6 +91,6 @@ h1 {
   display: none;
 }
 
-.nav-check:checked ~ .nav-close {
+.nav-check:checked ~ .nav-label .nav-close {
   display: block;
 }
