@@ -31,7 +31,7 @@ header {
 h1 {
   margin: 0 0 1rem;
   text-align: center;
-  font: normal 100%/1.5 "Lobster", sans-serif;
+  font: normal 100%/1.5 Lobster, sans-serif;
 }
 
 .nav {
@@ -47,7 +47,7 @@ h1 {
 
 .nav a {
   display: block;
-  padding: 0.5em;
+  padding: .5em;
   text-decoration: none;
   background-color: #666;
   color: #000;
