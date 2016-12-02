@@ -96,14 +96,41 @@ h1 {
   display: block;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
 .banner-img {
   width: 100%;
+}
+
+.banner p {
+  font-size: 1.25rem;
+  text-align: center;
+  max-width: 50em;
+  padding: 0 1rem;
+  margin: 0;
 }
 
 h2 {
   font: normal 100%/1.5 Lobster, sans-serif;
   font-size: 2rem;
   text-align: center;
+  margin: .5em .5em 0 .5em;
+}
+
+.categories figcaption {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.hard-candy,
+.soft-candy,
+.candy-by-colour,
+.special-occasions {
+  margin: 1rem 0;
 }
 
 .location-img {
@@ -112,10 +139,35 @@ h2 {
 
 .perfect-gift-images {
   width: 100%;
+  margin: 1rem 0;
+}
+
+.who-we-are {
+  margin: 1rem;
 }
 
 h3 {
   font-family: Cabin, sans-serif;
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 1.25em;
+  margin: 1rem 1rem .25rem 1rem;
+}
+
+.location ol,
+.vcard {
+  list-style-type: none;
+  padding: 0 2em;
+  margin: 0;
+}
+
+.tel,
+.fn,
+.adr {
+  margin: 0;
+}
+
+footer {
+  margin: 1.5em 0 .5em 1em;
+  font-size: .75rem;
+  text-align: center;
 }
