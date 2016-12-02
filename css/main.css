@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.5 Georgia, serif;
+  font: normal 100%/1.5 Cabin, sans-serif;
 }
 
 *, *::before, *::after {
@@ -32,6 +32,7 @@ h1 {
   margin: 0 0 1rem;
   text-align: center;
   font: normal 100%/1.5 Lobster, sans-serif;
+  font-size: 3rem;
 }
 
 .nav {
@@ -101,6 +102,8 @@ h1 {
 
 h2 {
   font: normal 100%/1.5 Lobster, sans-serif;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .location-img {
@@ -109,4 +112,10 @@ h2 {
 
 .perfect-gift-images {
   width: 100%;
+}
+
+h3 {
+  font-family: Cabin, sans-serif;
+  font-weight: 600;
+  font-size: 1.75rem;
 }
