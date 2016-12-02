@@ -94,3 +94,19 @@ h1 {
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
 }
+
+.banner-img {
+  width: 100%;
+}
+
+h2 {
+  font: normal 100%/1.5 Lobster, sans-serif;
+}
+
+.location-img {
+  width: 100%;
+}
+
+.perfect-gift-images {
+  width: 100%;
+}
