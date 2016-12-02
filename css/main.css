@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.5 Cabin, sans-serif;
+  font: normal 100%/1.5 Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -102,16 +102,24 @@ img {
   margin-right: auto
 }
 
-.banner-img {
-  width: 100%;
+.banner {
+  background-color: #e2e2e2;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
 }
 
-.banner p {
+.banner img {
+  width: 100%;
+  display: block;
+}
+
+.banner h2 {
   font-size: 1.25rem;
   text-align: center;
   max-width: 50em;
-  padding: 0 1rem;
-  margin: 0;
+  padding: 0 3rem;
+  margin: 1rem 0;
 }
 
 h2 {
@@ -139,7 +147,9 @@ h2 {
 
 .perfect-gift-images {
   width: 100%;
-  margin: 1rem 0;
+  margin: 1em 0;
+  display: block;
+  vertical-align: middle;
 }
 
 .who-we-are {
@@ -170,4 +180,63 @@ footer {
   margin: 1.5em 0 .5em 1em;
   font-size: .75rem;
   text-align: center;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.3rem;
+  }
+
+  .banner h2 {
+    padding: 0 4rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .banner {
+    position: relative;
+  }
+
+  .banner h2 {
+    position: absolute;
+    bottom: 0;
+    width: 55%;
+    right: 20%;
+
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
