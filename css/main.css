@@ -99,7 +99,7 @@ h1 {
 img {
   display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
 .banner {
@@ -114,19 +114,19 @@ img {
   display: block;
 }
 
+h2 {
+  font: normal 100%/1.5 Lobster, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin: .5em .5em 0;
+}
+
 .banner h2 {
   font-size: 1.25rem;
   text-align: center;
   max-width: 50em;
   padding: 0 3rem;
   margin: 1rem 0;
-}
-
-h2 {
-  font: normal 100%/1.5 Lobster, sans-serif;
-  font-size: 2rem;
-  text-align: center;
-  margin: .5em .5em 0 .5em;
 }
 
 .categories figcaption {
@@ -143,13 +143,14 @@ h2 {
 
 .location-img {
   width: 100%;
+  padding: 0 1em;
 }
 
 .perfect-gift-images {
   width: 100%;
   margin: 1em 0;
   display: block;
-  vertical-align: middle;
+  padding: 0 1em;
 }
 
 .who-we-are {
@@ -160,7 +161,7 @@ h3 {
   font-family: Cabin, sans-serif;
   font-weight: 600;
   font-size: 1.25em;
-  margin: 1rem 1rem .25rem 1rem;
+  margin: 1rem 1rem .25rem;
 }
 
 .location ol,
