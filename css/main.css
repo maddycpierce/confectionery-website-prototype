@@ -11,6 +11,8 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   font: normal 100%/1.5 Georgia, serif;
+  margin: 0;
+  padding: 0;
 }
 
 *, *::before, *::after {
@@ -41,7 +43,8 @@ h1 {
   list-style-type: none;
   background-color: #ccc;
   display: none;
-  position: absolute;
+  position: relative;
+  z-index: 1000;
   top: 100%;
   width: 15em;
 }
@@ -86,6 +89,8 @@ h1 {
 
 .nav-close {
   display: none;
+  position: absolute;
+  z-index: 500;
 }
 
 .nav-check:checked ~ .nav-label .nav-open {
@@ -234,6 +239,21 @@ footer {
 
   .categories figure {
     margin: 0;
+  }
+
+  .who-we-are-card img {
+    margin-right: 1em;
+    margin-bottom: 1em;
+    display: inline-block;
+  }
+
+  .who-we-are-body {
+    margin-top: 0;
+    margin-left: 20px;
+    display: inline-block;
+    max-width: 90%;
+    position: absolute;
+    padding-top: 1em;
   }
 
 }
