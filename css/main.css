@@ -223,6 +223,19 @@ footer {
     color: #fff;
   }
 
+  .categories {
+    display: inline-block;
+  }
+
+  .categories img {
+    width: 100px;
+    margin: 0;
+  }
+
+  .categories figure {
+    margin: 0;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
