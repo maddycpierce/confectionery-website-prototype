@@ -31,74 +31,32 @@ header {
 }
 
 h1 {
-  margin: 0 0 1rem;
+  padding-left: 1em;
   text-align: center;
   font: normal 100%/1.5 Lobster, sans-serif;
   font-size: 3rem;
 }
 
-.nav {
+nav ul {
+  list-style: none;
+  font-size: 1.125rem;
+  padding: .75rem;
   margin: 0;
-  padding: 0;
-  list-style-type: none;
-  background-color: #ccc;
-  display: none;
-  position: relative;
-  z-index: 1000;
-  top: 100%;
-  width: 15em;
 }
 
-.nav a {
-  display: block;
-  padding: .5em;
+li {
+  padding-left: 0;
+}
+
+nav a {
   text-decoration: none;
-  background-color: #666;
+  white-space: nowrap;
   color: #000;
 }
 
-.nav a:hover {
-  background-color: #333;
+nav a:hover {
   color: #fff;
-}
-
-.nav-check {
-  position: absolute;
-  top: -3em;
-}
-
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-.nav-label {
-  cursor: pointer;
-  font-size: 1.25rem;
-  width: 40px;
-  display: inline-block;
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-}
-
-.nav-open,
-.nav-close {
-  display: block;
-  width: 100%;
-}
-
-.nav-close {
-  display: none;
-  position: absolute;
-  z-index: 500;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-  display: block;
+  background-color: #000;
 }
 
 img {
@@ -108,10 +66,10 @@ img {
 }
 
 .banner {
-  background-color: #e2e2e2;
   position: relative;
   overflow: hidden;
   margin: 0;
+  max-height: 75vh;
 }
 
 .banner img {
@@ -205,6 +163,12 @@ footer {
     padding: 0 4rem;
   }
 
+  nav li {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -213,6 +177,12 @@ footer {
     font-size: 110%;
     line-height: 1.4;
   }
+
+  nav li {
+    float: left;
+    width: 33.3333%;
+  }
+
 
   .banner {
     position: relative;
@@ -290,6 +260,49 @@ footer {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .categories img {
+    width: 95%;
+    margin: 0;
+    text-align: center;
+  }
+
+  header {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding-bottom: 0;
+  }
+
+  header h1 {
+    float: left;
+  }
+
+  .banner {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    float: right;
+    font-size: 150%;
+    padding: 1em;
+    padding-top: .5em;
+    width: 50%;
+    display: inline-block;
+  }
+
+  .location img {
+    margin: 1em 1em 1em 0;
+    display: inline-block;
+    max-width: 40%;
+  }
+
+  .info {
+    margin-top: 0;
+    display: inline-block;
+    max-width: 50%;
+    position: absolute;
+    margin-right: 10px;
   }
 
 }
