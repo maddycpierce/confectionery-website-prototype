@@ -139,11 +139,12 @@ h2 {
   font-size: 1.25rem;
 }
 
-.hard-candy,
-.soft-candy,
-.candy-by-colour,
-.special-occasions {
+figure {
   margin: 1rem 0;
+}
+
+figure img {
+  width: 80%;
 }
 
 .location-img {
@@ -151,7 +152,7 @@ h2 {
   padding: 0 1em;
 }
 
-.perfect-gift-images {
+.the-perfect-gift img {
   width: 100%;
   margin: 1em 0;
   display: block;
@@ -228,19 +229,42 @@ footer {
     color: #fff;
   }
 
+/*Categories*/
+
   .categories {
-    display: inline-block;
+    text-align: center;
   }
 
   .categories img {
-    width: 100px;
+    width: 100%;
     margin: 0;
+    text-align: center;
   }
 
   .categories figure {
-    margin: 0;
+    margin: 1em;
+    display: inline-block;
   }
 
+  .categories figcaption {
+    font-size: 1em;
+    text-align: center;
+  }
+
+/* The Perfect Gift*/
+
+  .the-perfect-gift {
+    text-align: center;
+  }
+
+  .the-perfect-gift img {
+    width: 30%;
+    display: inline-block;
+    margin: .5em 0;
+    padding: 0 .5em;
+  }
+
+/*who we are*/
   .who-we-are-card img {
     margin-right: 1em;
     margin-bottom: 1em;
@@ -249,11 +273,14 @@ footer {
 
   .who-we-are-body {
     margin-top: 0;
-    margin-left: 20px;
     display: inline-block;
     max-width: 90%;
     position: absolute;
-    padding-top: 1em;
+    margin-right: 10px;
+  }
+
+  .who-we-are-body h3 {
+    margin: 1rem 1rem .25rem 0;
   }
 
 }
