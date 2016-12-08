@@ -21,12 +21,12 @@ html {
 
 body {
   margin: 0;
-  background-color: #6DF1CC;
+  background-color: #e5e338;
 }
 
 header {
   padding: 2em;
-  background-color: #E3FFC3;
+  background-color: #4ec5c1;
   text-align: center;
   position: relative;
 }
@@ -112,7 +112,7 @@ h2 {
 }
 
 .the-perfect-gift {
-  background-color: #E3FFC3;
+  background-color: #ec576b;
 }
 
 .the-perfect-gift img {
@@ -125,7 +125,7 @@ h2 {
 .who-we-are {
   padding: 1rem;
   text-align: center;
-  background-color: #FF89C0;
+  background-color: #4ec5c1;
 }
 
 .who-we-are-body {
@@ -211,7 +211,7 @@ footer {
     width: 55%;
     right: 20%;
 
-    background-color: #FF89C0;
+    background-color: #ec576b;
     border-radius: 8px;
     color: #000;
     font-size: 130%;
