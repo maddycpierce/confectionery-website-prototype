@@ -260,7 +260,7 @@ footer {
     display: inline-block;
     text-align: center;
     max-width: 25%;
-    vertical-align: top:
+    vertical-align: top;
   }
 
   .who-we-are-body {
@@ -347,10 +347,6 @@ footer {
 
   .info ol {
     padding-right: 0;
-  }
-
-  .vard {
-    padding-left: 0;
   }
 
 }
