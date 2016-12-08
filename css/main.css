@@ -40,7 +40,7 @@ h1 {
 nav ul {
   list-style: none;
   font-size: 1.125rem;
-  padding: .75rem;
+  padding: 0;
   margin: 0;
 }
 
@@ -55,8 +55,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #fff;
-  background-color: #000;
+  color: grey;
 }
 
 img {
@@ -70,6 +69,14 @@ img {
   overflow: hidden;
   margin: 0;
   max-height: 75vh;
+}
+
+figure {
+  margin: 1rem 0;
+}
+
+figure img {
+  width: 80%;
 }
 
 .banner img {
@@ -95,14 +102,6 @@ h2 {
 .categories figcaption {
   text-align: center;
   font-size: 1.25rem;
-}
-
-figure {
-  margin: 1rem 0;
-}
-
-figure img {
-  width: 80%;
 }
 
 .location-img {
@@ -136,8 +135,7 @@ h3 {
 }
 
 .tel,
-.fn,
-.adr {
+.fn {
   margin: 0;
 }
 
@@ -156,7 +154,7 @@ footer {
 
   h1,
   p {
-    margin: 0 0 1.3rem;
+    margin: 0 0 .5rem;
   }
 
   .banner h2 {
@@ -167,6 +165,7 @@ footer {
     float: left;
     width: 33.3333%;
     text-align: center;
+    font-size: 120%;
   }
 
 }
@@ -183,7 +182,6 @@ footer {
     width: 33.3333%;
   }
 
-
   .banner {
     position: relative;
   }
@@ -199,7 +197,7 @@ footer {
     color: #fff;
   }
 
-/*Categories*/
+  /* Categories */
 
   .categories {
     text-align: center;
@@ -221,7 +219,7 @@ footer {
     text-align: center;
   }
 
-/* The Perfect Gift*/
+  /* The Perfect Gift */
 
   .the-perfect-gift {
     text-align: center;
@@ -234,19 +232,21 @@ footer {
     padding: 0 .5em;
   }
 
-/*who we are*/
+  /* who we are */
+
   .who-we-are-card img {
     margin-right: 1em;
     margin-bottom: 1em;
     display: inline-block;
+    text-align: center;
   }
 
   .who-we-are-body {
     margin-top: 0;
     display: inline-block;
-    max-width: 90%;
+    max-width: 1000px;
     position: absolute;
-    margin-right: 10px;
+    margin-right: 50px;
   }
 
   .who-we-are-body h3 {
@@ -303,6 +303,10 @@ footer {
     max-width: 50%;
     position: absolute;
     margin-right: 10px;
+  }
+
+  .vcard {
+    display: absolute;
   }
 
 }
