@@ -21,20 +21,21 @@ html {
 
 body {
   margin: 0;
+  background-color: #6DF1CC;
 }
 
 header {
-  padding: 1em 0 40px;
-  background-color: #e2e2e2;
+  padding: 2em;
+  background-color: #E3FFC3;
   text-align: center;
   position: relative;
 }
 
 h1 {
-  padding-left: 1em;
   text-align: center;
   font: normal 100%/1.5 Lobster, sans-serif;
   font-size: 3rem;
+  margin: 0;
 }
 
 nav ul {
@@ -42,20 +43,21 @@ nav ul {
   font-size: 1.125rem;
   padding: 0;
   margin: 0;
+  font-family: Cabin, sans-serif;
 }
 
 li {
   padding-left: 0;
 }
 
-nav a {
+header nav a {
   text-decoration: none;
   white-space: nowrap;
   color: #000;
 }
 
 nav a:hover {
-  color: grey;
+  color: #A94CAF;
 }
 
 img {
@@ -66,7 +68,6 @@ img {
 
 .banner {
   position: relative;
-  overflow: hidden;
   margin: 0;
   max-height: 75vh;
 }
@@ -88,7 +89,8 @@ h2 {
   font: normal 100%/1.5 Lobster, sans-serif;
   font-size: 2rem;
   text-align: center;
-  margin: .5em .5em 0;
+  margin: 0 .5em 0;
+  padding: 1.5rem;
 }
 
 .banner h2 {
@@ -109,15 +111,25 @@ h2 {
   padding: 0 1em;
 }
 
+.the-perfect-gift {
+  background-color: #E3FFC3;
+}
+
 .the-perfect-gift img {
   width: 100%;
   margin: 1em 0;
   display: block;
-  padding: 0 1em;
+  padding: 0 1.5rem;
 }
 
 .who-we-are {
-  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #FF89C0;
+}
+
+.who-we-are-body {
+  text-align: left;
 }
 
 h3 {
@@ -199,9 +211,10 @@ footer {
     width: 55%;
     right: 20%;
 
-    background-color: rgba(0, 0, 0, .3);
+    background-color: #FF89C0;
     border-radius: 8px;
-    color: #fff;
+    color: #000;
+    font-size: 130%;
   }
 
   /* Categories */
@@ -242,8 +255,8 @@ footer {
   /* who we are */
 
   .who-we-are-card img {
-    margin-right: 1em;
-    margin-bottom: 1em;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
     display: inline-block;
     text-align: center;
     max-width: 25%;
@@ -253,8 +266,7 @@ footer {
   .who-we-are-body {
     margin-top: 0;
     display: inline-block;
-    max-width: 1000px;
-    width: 50%;
+    max-width: 60%;
     vertical-align: top;
   }
 
@@ -300,6 +312,7 @@ footer {
 
   header h1 {
     float: left;
+    padding-left: 1em;
   }
 
   .banner {
@@ -313,6 +326,10 @@ footer {
     padding-top: .5em;
     width: 50%;
     display: inline-block;
+  }
+
+  .banner h2 {
+    font-size: 130%;
   }
 
   .location-img {
