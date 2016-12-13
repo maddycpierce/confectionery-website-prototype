@@ -46,7 +46,7 @@ nav ul {
   font-family: Cabin, sans-serif;
 }
 
-li {
+header li {
   padding-left: 0;
 }
 
@@ -95,7 +95,6 @@ h2 {
 }
 
 .banner h2 {
-  font-size: 1.25rem;
   text-align: center;
   max-width: 50em;
   padding: 0 3rem;
@@ -104,7 +103,6 @@ h2 {
 
 .categories figcaption {
   text-align: center;
-  font-size: 1.25rem;
 }
 
 .location-img {
@@ -136,7 +134,6 @@ h2 {
 h3 {
   font-family: Cabin, sans-serif;
   font-weight: 600;
-  font-size: 1.25em;
   margin: 1rem 0 .25rem 2rem;
 }
 
@@ -152,6 +149,10 @@ h3 {
   margin: 0;
 }
 
+.vcard ol {
+  padding: 0;
+}
+
 .tel,
 .fn {
   margin: 0;
@@ -165,7 +166,7 @@ footer {
   clear: left;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 3em) {
 
   html {
     font-size: 100%;
@@ -185,7 +186,6 @@ footer {
     float: left;
     width: 33.3333%;
     text-align: center;
-    font-size: 120%;
   }
 
 }
@@ -215,7 +215,6 @@ footer {
     background-color: #ec576b;
     border-radius: 8px;
     color: #000;
-    font-size: 130%;
   }
 
   /* Categories */
@@ -236,7 +235,6 @@ footer {
   }
 
   .categories figcaption {
-    font-size: 1em;
     text-align: center;
   }
 
@@ -269,10 +267,6 @@ footer {
     display: inline-block;
     max-width: 60%;
     vertical-align: top;
-  }
-
-  .who-we-are-body h3 {
-    margin: 1rem 1rem .25rem 0;
   }
 
   .location-img {
@@ -308,7 +302,6 @@ footer {
 
   header {
     overflow: hidden;
-    font-size: 1.5rem;
     padding-bottom: 0;
   }
 
@@ -317,21 +310,16 @@ footer {
     padding-left: 1em;
   }
 
-  .banner {
-    font-size: 1.5rem;
-  }
-
   nav ul {
-    float: right;
-    font-size: 120%;
     padding: 1em;
     padding-top: .5em;
     width: 50%;
     display: inline-block;
   }
 
+  nav li,
   .banner h2 {
-    font-size: 130%;
+    font-size: 160%;
   }
 
   .location-img {
