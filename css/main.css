@@ -70,7 +70,6 @@ img {
 .banner {
   position: relative;
   margin: 0;
-  max-height: 75vh;
   overflow: hidden;
 }
 
@@ -95,11 +94,13 @@ h2 {
   padding: 1.5rem;
 }
 
-.banner h2 {
+.banner p {
   text-align: center;
   max-width: 50em;
   padding: 0 3rem;
   margin: 1rem 0;
+  font-size: 1rem;
+  font-family: Cabin, sans-serif;
 }
 
 .categories figcaption {
@@ -179,7 +180,7 @@ footer {
     margin: 0 0 .5rem;
   }
 
-  .banner h2 {
+  .banner p {
     padding: 0 4rem;
   }
 
@@ -205,9 +206,10 @@ footer {
 
   .banner {
     position: relative;
+    max-height: 75vh;
   }
 
-  .banner h2 {
+  .banner p {
     position: absolute;
     bottom: 0;
     width: 55%;
@@ -319,8 +321,8 @@ footer {
   }
 
   nav li,
-  .banner h2 {
-    font-size: 160%;
+  .banner p {
+    font-size: 150%;
   }
 
   .location-img {
